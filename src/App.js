@@ -1,15 +1,10 @@
 import React from 'react';
-import MyQuote from './MyQuote';
-import QuoteMaker from './QuoteMaker';
+import ReactDOM from 'react-dom';
+
+import Contact from './Contact'
 
 function App() {
-  return (
-    <div>
-      <MyQuote />
-      <QuoteMaker />
-    </div>
-  );
+  return <Contact />;
 }
 
-export default App;
-
+export default App
