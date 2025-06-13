@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
-import MyComponent from './App';
 // import MyFooter from './Footer';
 
-ReactDOM.createRoot(document.getElementById('app')).render(<MyComponent />);
+// App para manejo basico de Tasks (todos los componentes en subdir aislado). Solo se cambia aqui la llamada al principal
+import Tasks from './appTasks/AppFunction';
+ReactDOM.createRoot(document.getElementById('app')).render(<Tasks />);
